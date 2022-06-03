@@ -1,0 +1,5 @@
+import{S as g,i as E,s as I,e as d,t as l,k as B,c as _,a as y,h as u,d as r,m as S,b as T,g as w,I as n,n as x}from"../chunks/index-99cc4964.js";function k(b){let e,c,h,s,f,a,m,p;return{c(){e=d("h2"),c=l("Blog"),h=B(),s=d("p"),f=l(`I write these posts more to focus my thoughts than in the expectation that others will read them,
+	but as you've found yourself here you can find me on
+	`),a=d("a"),m=l("Twitter"),p=l("."),this.h()},l(t){e=_(t,"H2",{});var o=y(e);c=u(o,"Blog"),o.forEach(r),h=S(t),s=_(t,"P",{});var i=y(s);f=u(i,`I write these posts more to focus my thoughts than in the expectation that others will read them,
+	but as you've found yourself here you can find me on
+	`),a=_(i,"A",{href:!0});var v=y(a);m=u(v,"Twitter"),v.forEach(r),p=u(i,"."),i.forEach(r),this.h()},h(){T(a,"href","https://twitter.com/wrgrs")},m(t,o){w(t,e,o),n(e,c),w(t,h,o),w(t,s,o),n(s,f),n(s,a),n(a,m),n(s,p)},p:x,i:x,o:x,d(t){t&&r(e),t&&r(h),t&&r(s)}}}class A extends g{constructor(e){super(),E(this,e,null,k,I,{})}}export{A as default};

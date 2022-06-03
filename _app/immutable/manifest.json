@@ -1,0 +1,81 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-0bac5ed1.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-99cc4964.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/about.svelte",
+      "src/routes/clock.svelte",
+      "src/routes/index.svelte",
+      "src/routes/links.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-42e3d0d5.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-99cc4964.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-78399f35.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-ef5a130e.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-99cc4964.js"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "pages/about.svelte-32637235.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-99cc4964.js"
+    ]
+  },
+  "src/routes/clock.svelte": {
+    "file": "pages/clock.svelte-e0057309.js",
+    "src": "src/routes/clock.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-99cc4964.js"
+    ],
+    "css": [
+      "assets/pages/clock.svelte-33b7db30.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-5bfd6532.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-99cc4964.js"
+    ]
+  },
+  "src/routes/links.svelte": {
+    "file": "pages/links.svelte-e14112c3.js",
+    "src": "src/routes/links.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-99cc4964.js"
+    ]
+  },
+  "_index-99cc4964.js": {
+    "file": "chunks/index-99cc4964.js"
+  }
+}
