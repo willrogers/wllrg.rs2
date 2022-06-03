@@ -1,6 +1,7 @@
 <script>
 	// Import global styles.
 	import '../app.css';
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -12,20 +13,22 @@
 
 <div id="top">
 	<div id="header">
-		<a href="/"><div id="homelink"><img id="logo" src="/logo.png" alt="logo" />Will Rogers</div></a>
+		<a href="{base}/"
+			><div id="homelink"><img id="logo" src="{base}/logo.png" alt="logo" />Will Rogers</div></a
+		>
 		<nav>
 			<ul>
-				<li><a href="/">home</a></li>
-				<li><a href="/about">about</a></li>
-				<li><a href="/links">links</a></li>
+				<li><a href="{base}/">home</a></li>
+				<li><a href="{base}/about">about</a></li>
+				<li><a href="{base}/links">links</a></li>
 				<li class="header-nav-item">
 					<a href="https://github.com/willrogers">
-						<img class="header-nav-github" src="/GitHub-Mark-64px.png" alt="github" />
+						<img class="header-nav-github" src="{base}/GitHub-Mark-64px.png" alt="github" />
 					</a>
 				</li>
 				<li class="header-nav-item">
 					<a href="https://twitter.com/wrgrs">
-						<img class="header-nav-twitter" src="/Twitter_Logo_Blue.png" alt="twitter" />
+						<img class="header-nav-twitter" src="{base}/Twitter_Logo_Blue.png" alt="twitter" />
 					</a>
 				</li>
 			</ul>
