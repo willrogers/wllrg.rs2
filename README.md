@@ -1,4 +1,11 @@
-# create-svelte
+# wllrg.rs mk ii
+
+This uses [SvelteKit](https://kit.svelte.dev) - for more see below.
+
+A blog post on [building a Markdown-based blog](https://javascript.plainenglish.io/sveltekit-github-pages-4fe2844773de).
+
+
+# SvelteKit
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 

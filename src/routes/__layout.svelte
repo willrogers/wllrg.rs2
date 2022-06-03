@@ -62,6 +62,11 @@
 		width: 35px;
 	}
 
+	nav img {
+		/* This avoids the images being vertically offset in the nav. */
+		display: block;
+	}
+
 	nav ul {
 		display: flex;
 		align-items: center;
